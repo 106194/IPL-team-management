@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fahim.fahim22.CountryCountController">
+   <children>
+      <TableView fx:id="table" layoutX="-2.0" layoutY="1.0" prefHeight="357.0" prefWidth="600.0">
+        <columns>
+          <TableColumn fx:id="country" prefWidth="292.00000607967377" text="Country" />
+          <TableColumn fx:id="count" prefWidth="307.1999816894531" text="Count" />
+        </columns>
+      </TableView>
+      <ButtonBar layoutX="133.0" layoutY="360.0" prefHeight="40.0" prefWidth="200.0">
+        <buttons>
+          <Button mnemonicParsing="false" onAction="#Back" prefHeight="26.0" prefWidth="81.0" text="Back">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+        </buttons>
+      </ButtonBar>
+   </children>
+</AnchorPane>

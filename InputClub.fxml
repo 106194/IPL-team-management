@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fahim.fahim22.MainController">
+   <children>
+      <ImageView fitHeight="600.0" fitWidth="819.0" layoutX="1.0" layoutY="2.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@search.jpg" />
+         </image>
+      </ImageView>
+      <ButtonBar layoutX="281.0" layoutY="450.0" prefHeight="40.0" prefWidth="222.0" />
+    <Button fx:id="bclub" layoutX="694.0" layoutY="522.0" mnemonicParsing="false" onAction="#PlayerName" style="-fx-background-color: green;" text="Back" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="22.0" />
+         </font>
+      </Button>
+      <ButtonBar layoutX="39.0" layoutY="181.0" prefHeight="40.0" prefWidth="200.0" />
+      <ButtonBar layoutX="34.0" layoutY="268.0" prefHeight="40.0" prefWidth="200.0" />
+    <Button fx:id="bname" layoutX="61.0" layoutY="523.0" mnemonicParsing="false" onAction="#ClubCountry" style="-fx-background-color: green;" text="Submit" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Button>
+      <TextField fx:id="Club" alignment="CENTER" layoutX="303.0" layoutY="403.0" promptText="Club Name">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="Country" alignment="CENTER" layoutX="303.0" layoutY="449.0" promptText="Country Name">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </TextField>
+      <TextField layoutX="563.0" layoutY="151.0" prefHeight="26.0" prefWidth="0.0" />
+   </children>
+</AnchorPane>
