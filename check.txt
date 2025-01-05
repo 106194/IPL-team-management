@@ -1,0 +1,11 @@
+Royal Challengers Bangalore,12345678
+Rajasthan Royals,12345678
+Mumbai Indians,12345678
+Lucknow Super Giants,12345678
+Punjab Kings,12345678
+Rajasthan Royals,12345678
+Royal Challengers Bangalore,12345678
+Kolkata Knight Riders,12345678
+Gujarat Titans,12345678
+Chennai Super Kings,chennai express
+Delhi Capitals,123
